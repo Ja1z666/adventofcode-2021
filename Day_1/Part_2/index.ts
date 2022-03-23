@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-let array = fs.readFileSync('./day1/numbers.txt').toString().split("\n");
+let array = fs.readFileSync('./Day_1/numbers.txt').toString().split("\n");
 let count = 0;
 
 for(let i = 1; i < array.length; i++){
